@@ -25,13 +25,13 @@ func add(value1, value2 float64) float64 {
 	return value1 + value2
 }
 func subtract(value1, value2 float64) float64 {
-	return value1 + value2
+	return value1 - value2
 }
 func multiply(value1, value2 float64) float64 {
-	return value1 + value2
+	return value1 * value2
 }
 func divide(value1, value2 float64) float64 {
-	return value1 + value2
+	return value1 / value2
 }
 func getOperator() string {
 	fmt.Print("operator is ( + - * /)")
